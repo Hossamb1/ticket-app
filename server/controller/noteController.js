@@ -22,7 +22,7 @@ const getNotes = asyncHandler(async (req, res) => {
 // @desc    Create ticket note
 // @route   POST /api/tickets/:ticketId/notes
 // @access  Private
-const addNote = asyncHandler(async (req, res) => {
+const createNote = asyncHandler(async (req, res) => {
   const ticket = await Ticket.findById(req.params.ticketId);
 
   if (ticket.user.toString() !== req.user.id) {
@@ -42,5 +42,5 @@ const addNote = asyncHandler(async (req, res) => {
 
 module.exports = {
   getNotes,
-  addNote,
+  createNote,
 };
