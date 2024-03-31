@@ -159,6 +159,7 @@ h3 {
 .form-group input:focus + .floating-label,
 .form-group input:not(:focus):valid + .floating-label,
 .form-group input:not(:placeholder-shown) + .floating-label {
+  color: #000000;
   font-size: 11px;
   bottom: 10px;
   top: -8px;
