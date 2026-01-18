@@ -27,8 +27,8 @@ const NewTicket = () => {
     }
   }, [isSuccess, navigate, dispatch, isError, message]);
 
-  const [name, setName] = useState(user.name);
-  const [email, setEmail] = useState(user.email);
+  const [name] = useState(user.name);
+  const [email] = useState(user.email);
   const [product, setProduct] = useState("iPhone");
   const [description, setDescription] = useState();
 

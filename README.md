@@ -1,4 +1,4 @@
-﻿# Ticket app made with MERN technology
+﻿﻿# Ticket app made with MERN technology
 
 This project was made using the power of MERN (mongoDB, Express.js, React-Redux, Node.js).
 A support ticket system with authentication using CRUD operations to allow the user to create and delete their tickets.
@@ -45,5 +45,5 @@ and for the frontend in the client folder.
 
 That's all for this project, A small app achieving all MERN fundamentals.
 
-made by,  <br />
+made by, <br />
 _**Hossam Barakat**_
