@@ -12,13 +12,11 @@ const bcrypt = require("bcryptjs");
 // server
 const app = express();
 
-// Allow all origins
+// Allow origins
 app.use(
   cors({
     origin: "https://ticket-app-client.vercel.app",
-    preflightContinue: true,
     credentials: true,
-    optionsSuccessStatus: 200,
   })
 );
 
